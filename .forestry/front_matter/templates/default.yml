@@ -1,4 +1,6 @@
 ---
+pages:
+- posts/duplicate-hash-in-ruby.md
 hide_body: false
 is_partial: false
 fields:
