@@ -55,7 +55,7 @@ class Space
 end
 ```
 
-I want to explain why it uses ```__send__``` instead of ```send```.
+I want to explain why it uses __send__ instead of send.
 
 The send method can be override. Example:
 
@@ -77,7 +77,7 @@ Foo.new.__send__(:bar)
 => true
 ```
 
-To avoid conflicts, specially in gems or libraries when the context where it will be used is unknown, always use ```__send__```.
+To avoid conflicts, specially in gems or libraries when the context where it will be used is unknown, always use __send__.
 
 Ruby warns when trying to redefine it:
 
