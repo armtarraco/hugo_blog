@@ -1,13 +1,7 @@
 ---
-title: "Ruby__send__vs_send"
-date: 2018-04-23T10:13:23+02:00
-draft: true
----
-
----
 title: "Ruby __send__ vs send"
 date: 2018-04-23T10:06:11+02:00
-draft: true
+draft: false
 ---
 
 In Ruby module Forwardable, you can find the following line
@@ -55,7 +49,7 @@ class Space
 end
 ```
 
-I want to explain why it uses __send__ instead of send.
+I want to explain why it uses `__send__` instead of send.
 
 The send method can be override. Example:
 
@@ -77,7 +71,7 @@ Foo.new.__send__(:bar)
 => true
 ```
 
-To avoid conflicts, specially in gems or libraries when the context where it will be used is unknown, always use __send__.
+To avoid conflicts, specially in gems or libraries when the context where it will be used is unknown, always use `__send__`.
 
 Ruby warns when trying to redefine it:
 
