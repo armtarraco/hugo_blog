@@ -5,5 +5,6 @@ title = "Files affected in a branch compared with other branch"
 
 +++
 
-
-	git diff --name-only <other branch>
+```
+git diff --name-only <other branch>
+```
