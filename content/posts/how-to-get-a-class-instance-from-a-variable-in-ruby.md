@@ -11,7 +11,7 @@ Everything in Ruby is an Object
     Object.const_get(a)...  
     => User(...)
 
-![](/uploads/2018/04/25/live_objects_10.jpg)
+![](/uploads/2018/04/25/live_objects_10.jpg "Any object")
 
     a = 'User'  
     Object.const_get(a)...  
