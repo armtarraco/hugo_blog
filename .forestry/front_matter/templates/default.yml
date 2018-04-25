@@ -1,5 +1,6 @@
 ---
 pages:
+- posts/how-to-get-a-class-instance-from-a-variable-in-ruby.md
 - posts/list-affected-files-in-a-git-branch.md
 - posts/duplicate-hash-in-ruby.md
 hide_body: false
