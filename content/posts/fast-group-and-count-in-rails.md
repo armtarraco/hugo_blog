@@ -4,4 +4,8 @@ draft = true
 title = "Fast group and count in Rails"
 
 +++
+For instance, count new users by month
 
+```
+User.order("TO_CHAR(created_at, 'YYYY MM')").group("TO_CHAR(created_at, 'YYYY MM')").count
+```
