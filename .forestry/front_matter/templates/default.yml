@@ -1,5 +1,6 @@
 ---
 pages:
+- posts/rails-debug-to-stderror.md
 - posts/postman-tests-sample.md
 - posts/fast-group-and-count-in-rails.md
 - posts/how-to-get-a-class-instance-from-a-variable-in-ruby.md
