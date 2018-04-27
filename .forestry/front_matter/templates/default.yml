@@ -1,5 +1,6 @@
 ---
 pages:
+- posts/how--display-flex--or--display--grid--redefines-what--margin--auto--does-on-top-and-bottom--allowing-for-vertical-centering.md
 - posts/rails-debug-to-stderror.md
 - posts/postman-tests-sample.md
 - posts/fast-group-and-count-in-rails.md
