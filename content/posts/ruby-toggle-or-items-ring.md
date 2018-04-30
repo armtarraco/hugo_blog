@@ -4,4 +4,14 @@ draft = true
 title = "Ruby toggle or items ring"
 
 +++
+<!--more-->
 
+Switch or toggle.
+
+    switch = %w(on off).cycle
+    switch.next
+
+Ring.
+
+    ring = %( 1 2 3 4 ).cycle
+    ring.next
