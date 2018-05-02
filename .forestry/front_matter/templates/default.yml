@@ -1,5 +1,6 @@
 ---
 pages:
+- posts/rails--create-has_one-association-with-custom-column-type-and-name.md
 - posts/ruby-toggle-or-items-ring.md
 - posts/compare-files-in-different-branches.md
 - posts/how--display-flex--or--display--grid--redefines-what--margin--auto--does-on-top-and-bottom--allowing-for-vertical-centering.md
