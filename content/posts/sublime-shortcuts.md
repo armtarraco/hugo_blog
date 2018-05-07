@@ -3,7 +3,7 @@ date = "2018-05-07T09:44:05+02:00"
 title = "Sublime shortcuts"
 
 +++
-<!--more->
+<!--more-->
 
     ctrl k + ctrl up -> mover tab a new panel
     
