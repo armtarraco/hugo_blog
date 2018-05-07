@@ -1,5 +1,6 @@
 ---
 pages:
+- posts/resolve-merge-conflict-with-git.md
 - posts/equal-height-rows-with-css.md
 - posts/sublime-shortcuts.md
 - posts/rails-migration-to-remove-or-change-column-default-value.md
