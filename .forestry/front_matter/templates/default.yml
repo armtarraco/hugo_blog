@@ -1,5 +1,7 @@
 ---
 pages:
+- posts/equal-height-rows-with-css.md
+- posts/sublime-shortcuts.md
 - posts/rails-migration-to-remove-or-change-column-default-value.md
 - posts/rails--create-has_one-association-with-custom-column-type-and-name.md
 - posts/ruby-toggle-or-items-ring.md
