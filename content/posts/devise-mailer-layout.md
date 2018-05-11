@@ -1,6 +1,6 @@
 +++
 date = "2018-05-11T09:17:46+02:00"
-draft = true
+draft = false
 title = "Devise mailer layout"
 
 +++
