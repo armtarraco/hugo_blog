@@ -1,9 +1,10 @@
 ---
 pages:
+- posts/include-helper-in-devise-custom-mailer.md
+- posts/sublime-shortcuts-1.md
 - posts/git-difference-between-branches.md
 - posts/callback-conditional-to-only-some-fields-changes.md
 - posts/image-from-rails-assets-collection.md
-- posts/include-helper-in-devise-custom-mailer.md
 - posts/rspec-association-stub.md
 - posts/git-tagging.md
 - posts/devise-mailer-layout.md
