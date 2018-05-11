@@ -1,5 +1,6 @@
 ---
 pages:
+- posts/image-from-rails-assets-collection.md
 - posts/rspec-association-stub.md
 - posts/git-tagging.md
 - posts/devise-mailer-layout.md
