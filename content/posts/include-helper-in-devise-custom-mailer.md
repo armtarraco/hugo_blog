@@ -1,6 +1,6 @@
 +++
 date = "2018-05-11T09:22:32+02:00"
-draft = true
+draft = false
 title = "Include helper in Devise Custom Mailer"
 
 +++
