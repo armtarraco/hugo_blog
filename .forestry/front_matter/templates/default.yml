@@ -1,9 +1,10 @@
 ---
 pages:
+- posts/rspec-association-stub.md
+- posts/git-tagging.md
 - posts/devise-mailer-layout.md
 - posts/resolve-merge-conflict-with-git.md
 - posts/rails--create-has_one-association-with-custom-column-type-and-name.md
-- posts/git-tagging.md
 - posts/equal-height-rows-with-css.md
 - posts/sublime-shortcuts.md
 - posts/rails-migration-to-remove-or-change-column-default-value.md
