@@ -4,4 +4,6 @@ draft = true
 title = "Callback conditional to only some fields changes"
 
 +++
+<!--more-->
 
+    after_save :update_stripe, on: :update, if: proc { |object| object.changes.include?('trial_period_days') }
