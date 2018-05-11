@@ -21,6 +21,8 @@ Vagrantfile
     ...
     
 
+Generate keys
+
     openssl req -config openssl_selfsigned.conf -new -sha256 -newkey rsa:2048 -nodes -keyout server.key -x509 -days 365 -out server.crt
 
 Fichero conf con
@@ -88,7 +90,7 @@ For more rails apps in the same box, add DNS.2, DNS.3, ...
 En el host
 
     /etc/hosts
-
+    
     192.168.50.50 dev-sharing-kitchen
 
 abrir [https://dev-sharing-kitchen:3001](https://dev-sharing-kitchen:3001/)
@@ -96,7 +98,7 @@ abrir [https://dev-sharing-kitchen:3001](https://dev-sharing-kitchen:3001/)
 Developer Tools, Security, View certificate, in details tab, Export (to a file) -> SHK
 
 Double-click in the certificate file, if it asks a password to unblock the "Gnome2 Key Storage" follow the next instructions  
-Gnome2 Key Storage used to be name "User Keys", so is a file 
+Gnome2 Key Storage used to be name "User Keys", so is a file
 
 "\~/.local/share/keyrings/user.keystore".
 
