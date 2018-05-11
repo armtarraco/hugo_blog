@@ -4,4 +4,9 @@ draft = true
 title = "GIT Tagging"
 
 +++
+<!--more-->
 
+    git tag -a <tag name, ex version> -m "message"
+    git push --tags
+    git tag
+    git show <tag name>
