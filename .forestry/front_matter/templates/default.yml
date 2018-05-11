@@ -1,5 +1,6 @@
 ---
 pages:
+- posts/selfsigned-ssl-certificate-for-develpment.md
 - posts/include-helper-in-devise-custom-mailer.md
 - posts/sublime-shortcuts-1.md
 - posts/git-difference-between-branches.md
