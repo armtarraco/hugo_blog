@@ -79,7 +79,9 @@ nsComment            = "OpenSSL Generated Certificate"
 
 DNS.1       = dev-sharing-kitchen
 
----fin del fichero conf  
+---fin del fichero conf
+
+  
 The last section is called SAN SubjectAlternateNames
 
 The important line is the last one: -> DNS.1
@@ -95,22 +97,22 @@ En el host
 
 abrir [https://dev-sharing-kitchen:3001](https://dev-sharing-kitchen:3001/)
 
-Developer Tools, Security, View certificate, in details tab, Export (to a file) -> SHK
+Developer Tools, Security, View certificate, in details tab, Export (to a file) -> \`\`\`SHK\`\`\`
 
-Double-click in the certificate file, if it asks a password to unblock the "Gnome2 Key Storage" follow the next instructions  
+Double-click in the certificate file, if it asks a password to unblock the "Gnome2 Key Storage" follow the next instructions.  
 Gnome2 Key Storage used to be name "User Keys", so is a file
 
-"\~/.local/share/keyrings/user.keystore".
+    "\~/.local/share/keyrings/user.keystore".
 
 1\. Remove that file  
 2\. Double-click on the certificate file to import it
 
-A new "user.keystore" will be created  
-Also, it will be appear a new file with the certificate -> SHK.cer
+A new \`\`\`user.keystore\`\`\` will be created.  
+Also, it will be appear a new file with the certificate -> \`\`\`SHK.cer\`\`\`
 
 In Chrome, Advance Settings, Certificates
 
-Importar servidor, abrir el archivo del certificado. Queda importado en la categoría de "Otros"
+Importar servidor, abrir el archivo del certificado. Queda importado en la categoría de "Otros".
 
 También es necesario habilitar
 
@@ -118,45 +120,45 @@ También es necesario habilitar
 
 pero sigue mostrando el sitio como no seguro
 
-Rails  
-[config/environments/development.rb](http://config/environments/development.rb)
+Rails
 
-host = ENV\['DEV_SHK_IP'\] || '0.0.0.0'  
-port = 3001  
-asset_host = "[https://#](https:/#){host}:#{port}"  
-config.action_mailer.asset_host = asset_host  
-config.action_controller.asset_host = asset_host  
-config.use_ssl = true  
-config.ssl_port = port # start thin on port 3001
+    #config/environments/development.rb
+    host = ENV['DEV_SHK_IP'] || '0.0.0.0'
+    port = 3001
+    asset_host = "https://#{host}:#{port}"
+    config.action_mailer.asset_host = asset_host
+    config.action_controller.asset_host = asset_host
+    config.use_ssl = true
+    config.ssl_port = port # start thin on port 3001
 
-## thin-vagrant.yml
-
-user: vagrant  
-group: vagrant  
-chdir: "/vagrant"  
-environment: development  
-address: 192.168.50.50  
-port: 3001  
-timeout: 30  
-log: "log/thin.log"  
-pid: "tmp/pids/thin.pid"  
-max_conns: 1024  
-max_persistent_conns: 100  
-rackup: [config.ru](http://config.ru/)  
-require: \[\]  
-wait: 30  
-threadpool_size: 20  
-daemonize: true  
-servers: 1  
-tag: shk  
-ssl: true  
-ssl-key-file: "/home/vagrant/.ssl/server.key"  
-ssl-cert-file: "/home/vagrant/.ssl/server.crt"
+    #thin-vagrant.yml
+    ---
+    user: vagrant
+    group: vagrant
+    chdir: "/vagrant"
+    environment: development
+    address: 192.168.50.50
+    port: 3001
+    timeout: 30
+    log: "log/thin.log"
+    pid: "tmp/pids/thin.pid"
+    max_conns: 1024
+    max_persistent_conns: 100
+    rackup: config.ru
+    require: []
+    wait: 30
+    threadpool_size: 20
+    daemonize: true
+    servers: 1
+    tag: shk
+    ssl: true
+    ssl-key-file: "/home/vagrant/.ssl/server.key"
+    ssl-cert-file: "/home/vagrant/.ssl/server.crt"
 
 Start the server with
 
-thin start -C thin-vagrant.yml
+    thin start -C thin-vagrant.yml
 
 or
 
-thin start --ssl  --ssl-key-file /home/vagrant/.ssl/server.key --ssl-cert-file /home/vagrant/.ssl/server.crt -p 3001
+    thin start --ssl  --ssl-key-file /home/vagrant/.ssl/server.key --ssl-cert-file /home/vagrant/.ssl/server.crt -p 3001
