@@ -97,7 +97,7 @@ En el host
 
 abrir [https://dev-sharing-kitchen:3001](https://dev-sharing-kitchen:3001/)
 
-Developer Tools, Security, View certificate, in details tab, Export (to a file) -> \`\`\`SHK\`\`\`
+Developer Tools, Security, View certificate, in details tab, Export (to a file) -> SHK
 
 Double-click in the certificate file, if it asks a password to unblock the "Gnome2 Key Storage" follow the next instructions.  
 Gnome2 Key Storage used to be name "User Keys", so is a file
@@ -107,8 +107,8 @@ Gnome2 Key Storage used to be name "User Keys", so is a file
 1\. Remove that file  
 2\. Double-click on the certificate file to import it
 
-A new \`\`\`user.keystore\`\`\` will be created.  
-Also, it will be appear a new file with the certificate -> \`\`\`SHK.cer\`\`\`
+A new 'user.keystore' will be created.  
+Also, it will be appear a new file with the certificate -> SHK.cer
 
 In Chrome, Advance Settings, Certificates
 
