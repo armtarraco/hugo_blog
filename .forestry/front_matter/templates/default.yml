@@ -1,5 +1,6 @@
 ---
 pages:
+- posts/git-tagging.md
 - posts/resolve-merge-conflict-with-git.md
 - posts/equal-height-rows-with-css.md
 - posts/sublime-shortcuts.md
