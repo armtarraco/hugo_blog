@@ -1,5 +1,6 @@
 ---
 pages:
+- posts/odoo-workflow-for-saleorder.md
 - posts/odoo-workflow.md
 - posts/monit-installation-process.md
 - posts/selfsigned-ssl-certificate-for-develpment.md
