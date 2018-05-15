@@ -1,8 +1,8 @@
 ---
 pages:
+- posts/monit-installation-process.md
 - posts/odoo-workflow-for-saleorder.md
 - posts/odoo-workflow.md
-- posts/monit-installation-process.md
 - posts/selfsigned-ssl-certificate-for-develpment.md
 - posts/include-helper-in-devise-custom-mailer.md
 - posts/sublime-shortcuts-1.md
