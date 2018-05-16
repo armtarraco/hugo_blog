@@ -1,6 +1,5 @@
 +++
 date = "2018-05-16T13:31:20+02:00"
-draft = true
 title = "Issue with audio in Linux Fedora 26"
 
 +++
