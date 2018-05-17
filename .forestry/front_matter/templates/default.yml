@@ -1,5 +1,6 @@
 ---
 pages:
+- posts/swagger-blocks-response-with-json-object.md
 - posts/install-gems-locally-to-project-in-rails.md
 - posts/issue-with-audio-in-linux-fedora-26.md
 - posts/monit-installation-process.md
