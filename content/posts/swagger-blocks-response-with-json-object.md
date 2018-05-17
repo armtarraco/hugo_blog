@@ -5,16 +5,11 @@ title = "Swagger-blocks response with JSON object"
 +++
 <!--more-->
 
+In Rails controller
+
       swagger_path '/supplier/services' do
         operation :get do
           key :description, 'List of users approved services'
-          parameter do
-            key :name, 'X-FLAVOUR'
-            key :in, :header
-            key :description, "Android App flavour. Possible values: 'client', 'supplier'"
-            key :required, true
-            key :type, :string
-          end
           response 200 do
             key :description, 'List of approved services'
             schema do
@@ -62,6 +57,8 @@ Generates this in SwaggerHub
         }
       ]
     }
+
+Live example:
 
     {
         "services": [
@@ -115,4 +112,4 @@ Generates this in SwaggerHub
                 "client_full_name": "Alfredoqa Demástu",
                 "additional_information": null
             },
-    
+    ...
