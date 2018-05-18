@@ -18,7 +18,6 @@ fields:
   hidden: false
   default: true
 pages:
-- posts/rspec-association-stubbing.md
 - posts/ruby-toggle-or-items-ring.md
 - posts/resolve-merge-conflict-with-git.md
 - posts/rails--create-has_one-association-with-custom-column-type-and-name.md
