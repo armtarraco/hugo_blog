@@ -24,7 +24,6 @@ In Rails controller
           end
         end
       end
-    
 
 Generates this in SwaggerHub
 
