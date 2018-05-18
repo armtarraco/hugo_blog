@@ -22,7 +22,6 @@ pages:
 - posts/resolve-merge-conflict-with-git.md
 - posts/rails--create-has_one-association-with-custom-column-type-and-name.md
 - posts/rails-migration-to-remove-or-change-column-default-value.md
-- posts/rspec-association-stub.md
 - posts/postman-tests-sample.md
 - posts/how-to-get-a-class-instance-from-a-variable-in-ruby.md
 - posts/git-difference-between-branches.md
