@@ -12,4 +12,4 @@ categories = [
 
 https://www.calebwoods.com/2015/05/05/vagrant-guest-commands/
 
-    vagrant ssh -c 'cd /vagrant; bundle exec rspec'+++
+    vagrant ssh -c 'cd /vagrant; bundle exec rspec'
