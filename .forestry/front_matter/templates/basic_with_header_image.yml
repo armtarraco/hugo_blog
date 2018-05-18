@@ -10,5 +10,3 @@ fields:
 - type: image_gallery
   name: header
   label: Header
-pages:
-- posts/rspec-association-stub.md
