@@ -1,6 +1,12 @@
 +++
 date = "2018-04-27T09:09:34+02:00"
 title = "Postman tests sample"
+tags = [
+  "postman",
+]
+categories = [
+  "testing",
+]
 
 +++
 See more in Postman-echo collection in Postman App.

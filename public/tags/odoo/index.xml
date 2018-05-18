@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Odoo on Alfredo&#39;s Blog</title>
+    <link>https://alfredoroca.bitbucket.io/tags/odoo/</link>
+    <description>Recent content in Odoo on Alfredo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 May 2018 09:31:50 +0200</lastBuildDate>
+    
+	<atom:link href="https://alfredoroca.bitbucket.io/tags/odoo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Odoo workflow for SaleOrder</title>
+      <link>https://alfredoroca.bitbucket.io/posts/odoo-workflow-for-saleorder/</link>
+      <pubDate>Tue, 15 May 2018 09:31:50 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/odoo-workflow-for-saleorder/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Odoo SaleOrder confirmation as soon as it gets created</title>
+      <link>https://alfredoroca.bitbucket.io/posts/odoo-workflow/</link>
+      <pubDate>Tue, 15 May 2018 09:29:46 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/odoo-workflow/</guid>
+      <description>&lt;p&gt;I want to confirm sale order as soon as it gets created.&lt;br /&gt;
+You should use the method action_confirm.&lt;/p&gt;
+
+&lt;p&gt;From &lt;a href=&#34;https://stackoverflow.com/a/43648668&#34; title=&#34;https://stackoverflow.com/a/43648668&#34;&gt;https://stackoverflow.com/a/43648668&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

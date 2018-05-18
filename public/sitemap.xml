@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/about-1/</loc>
+    <lastmod>2018-05-18T20:39:07+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/swagger-blocks-response-with-json-object/</loc>
+    <lastmod>2018-05-17T16:41:07+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/install-gems-locally-to-project-in-rails/</loc>
+    <lastmod>2018-05-17T11:04:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/issue-with-audio-in-linux-fedora-26/</loc>
+    <lastmod>2018-05-16T13:31:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/odoo-workflow-for-saleorder/</loc>
+    <lastmod>2018-05-15T09:31:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/odoo-workflow/</loc>
+    <lastmod>2018-05-15T09:29:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/monit-installation-process/</loc>
+    <lastmod>2018-05-15T09:14:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/selfsigned-ssl-certificate-for-develpment/</loc>
+    <lastmod>2018-05-11T09:40:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/git-difference-between-branches/</loc>
+    <lastmod>2018-05-11T09:23:57+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/include-helper-in-devise-custom-mailer/</loc>
+    <lastmod>2018-05-11T09:22:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/callback-conditional-to-only-some-fields-changes/</loc>
+    <lastmod>2018-05-11T09:21:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/image-from-rails-assets-collection/</loc>
+    <lastmod>2018-05-11T09:20:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/devise-mailer-layout/</loc>
+    <lastmod>2018-05-11T09:17:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/git-tagging/</loc>
+    <lastmod>2018-05-11T09:16:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/resolve-merge-conflict-with-git/</loc>
+    <lastmod>2018-05-07T09:49:04+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/equal-height-rows-with-css/</loc>
+    <lastmod>2018-05-07T09:46:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/sublime-shortcuts/</loc>
+    <lastmod>2018-05-07T09:44:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/rails-migration-to-remove-or-change-column-default-value/</loc>
+    <lastmod>2018-05-04T09:53:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/rails--create-has_one-association-with-custom-column-type-and-name/</loc>
+    <lastmod>2018-05-02T09:15:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/ruby-toggle-or-items-ring/</loc>
+    <lastmod>2018-04-30T09:11:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/compare-files-in-different-branches/</loc>
+    <lastmod>2018-04-27T11:38:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/how--display-flex--or--display--grid--redefines-what--margin--auto--does-on-top-and-bottom--allowing-for-vertical-centering/</loc>
+    <lastmod>2018-04-27T09:19:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/rails-debug-to-stderror/</loc>
+    <lastmod>2018-04-27T09:13:19+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/postman-tests-sample/</loc>
+    <lastmod>2018-04-27T09:09:34+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/fast-group-and-count-in-rails/</loc>
+    <lastmod>2018-04-26T22:25:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/how-to-get-a-class-instance-from-a-variable-in-ruby/</loc>
+    <lastmod>2018-04-25T12:05:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/list-affected-files-in-a-git-branch/</loc>
+    <lastmod>2018-04-24T10:42:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/duplicate-hash-in-ruby/</loc>
+    <lastmod>2018-04-24T10:24:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/how_to_measure_elapsed_time_with_ruby/</loc>
+    <lastmod>2018-04-23T10:19:11+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/ruby__send__vs_send/</loc>
+    <lastmod>2018-04-23T10:06:11+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/</loc>
+    <lastmod>2018-05-17T16:41:07+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/assets/</loc>
+    <lastmod>2018-05-11T09:20:25+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/audio/</loc>
+    <lastmod>2018-05-16T13:31:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/bundle/</loc>
+    <lastmod>2018-05-17T11:04:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/callbacks/</loc>
+    <lastmod>2018-05-11T09:21:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/chrome/</loc>
+    <lastmod>2018-05-16T13:31:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/categories/css/</loc>
+    <lastmod>2018-05-07T09:46:03+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/debug/</loc>
+    <lastmod>2018-04-27T09:13:19+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/devise/</loc>
+    <lastmod>2018-05-11T09:22:32+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/categories/devops/</loc>
+    <lastmod>2018-05-15T09:14:01+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/display/</loc>
+    <lastmod>2018-04-27T09:19:50+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/categories/documentation/</loc>
+    <lastmod>2018-05-17T16:41:07+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/gem/</loc>
+    <lastmod>2018-05-17T11:04:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/categories/git/</loc>
+    <lastmod>2018-05-11T09:23:57+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/metaprogramming/</loc>
+    <lastmod>2018-04-23T10:06:11+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/monit/</loc>
+    <lastmod>2018-05-15T09:14:01+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/odoo/</loc>
+    <lastmod>2018-05-15T09:31:50+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/postman/</loc>
+    <lastmod>2018-04-27T09:09:34+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/posts/</loc>
+    <lastmod>2018-05-17T16:41:07+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/query/</loc>
+    <lastmod>2018-04-26T22:25:09+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/categories/rails/</loc>
+    <lastmod>2018-05-17T11:04:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/ruby/</loc>
+    <lastmod>2018-05-17T16:41:07+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/schema/</loc>
+    <lastmod>2018-05-04T09:53:48+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/ssl/</loc>
+    <lastmod>2018-05-11T09:40:14+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/sublime/</loc>
+    <lastmod>2018-05-07T09:44:05+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/swagger/</loc>
+    <lastmod>2018-05-17T16:41:07+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/table/</loc>
+    <lastmod>2018-05-07T09:46:03+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/tags/</loc>
+    <lastmod>2018-05-11T09:20:25+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alfredoroca.bitbucket.io/categories/testing/</loc>
+    <lastmod>2018-04-27T09:09:34+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

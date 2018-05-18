@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rails on Alfredo&#39;s Blog</title>
+    <link>https://alfredoroca.bitbucket.io/categories/rails/</link>
+    <description>Recent content in Rails on Alfredo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 May 2018 11:04:31 +0200</lastBuildDate>
+    
+	<atom:link href="https://alfredoroca.bitbucket.io/categories/rails/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install Gems locally to project in Rails</title>
+      <link>https://alfredoroca.bitbucket.io/posts/install-gems-locally-to-project-in-rails/</link>
+      <pubDate>Thu, 17 May 2018 11:04:31 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/install-gems-locally-to-project-in-rails/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Odoo workflow for SaleOrder</title>
+      <link>https://alfredoroca.bitbucket.io/posts/odoo-workflow-for-saleorder/</link>
+      <pubDate>Tue, 15 May 2018 09:31:50 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/odoo-workflow-for-saleorder/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Odoo SaleOrder confirmation as soon as it gets created</title>
+      <link>https://alfredoroca.bitbucket.io/posts/odoo-workflow/</link>
+      <pubDate>Tue, 15 May 2018 09:29:46 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/odoo-workflow/</guid>
+      <description>&lt;p&gt;I want to confirm sale order as soon as it gets created.&lt;br /&gt;
+You should use the method action_confirm.&lt;/p&gt;
+
+&lt;p&gt;From &lt;a href=&#34;https://stackoverflow.com/a/43648668&#34; title=&#34;https://stackoverflow.com/a/43648668&#34;&gt;https://stackoverflow.com/a/43648668&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Include helper in Devise Custom Mailer</title>
+      <link>https://alfredoroca.bitbucket.io/posts/include-helper-in-devise-custom-mailer/</link>
+      <pubDate>Fri, 11 May 2018 09:22:32 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/include-helper-in-devise-custom-mailer/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Callback conditional to only some fields changes</title>
+      <link>https://alfredoroca.bitbucket.io/posts/callback-conditional-to-only-some-fields-changes/</link>
+      <pubDate>Fri, 11 May 2018 09:21:28 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/callback-conditional-to-only-some-fields-changes/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Image from Rails assets collection</title>
+      <link>https://alfredoroca.bitbucket.io/posts/image-from-rails-assets-collection/</link>
+      <pubDate>Fri, 11 May 2018 09:20:25 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/image-from-rails-assets-collection/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Devise mailer layout</title>
+      <link>https://alfredoroca.bitbucket.io/posts/devise-mailer-layout/</link>
+      <pubDate>Fri, 11 May 2018 09:17:46 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/devise-mailer-layout/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rails migration to remove or change column default value</title>
+      <link>https://alfredoroca.bitbucket.io/posts/rails-migration-to-remove-or-change-column-default-value/</link>
+      <pubDate>Fri, 04 May 2018 09:53:48 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/rails-migration-to-remove-or-change-column-default-value/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rails debug to STDERR</title>
+      <link>https://alfredoroca.bitbucket.io/posts/rails-debug-to-stderror/</link>
+      <pubDate>Fri, 27 Apr 2018 09:13:19 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/rails-debug-to-stderror/</guid>
+      <description>&lt;p&gt;Write to STDERR &amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fast group and count in Rails</title>
+      <link>https://alfredoroca.bitbucket.io/posts/fast-group-and-count-in-rails/</link>
+      <pubDate>Thu, 26 Apr 2018 22:25:09 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/fast-group-and-count-in-rails/</guid>
+      <description>&lt;p&gt;For instance, count new users by month.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

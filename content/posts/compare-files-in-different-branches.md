@@ -1,6 +1,11 @@
 +++
 date = "2018-04-27T11:38:03+02:00"
 title = "Compare files in different branches with Git"
+tags = [
+]
+categories = [
+  "git",
+]
 
 +++
 Find changes with Git comparing files between branches.

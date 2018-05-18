@@ -1,6 +1,12 @@
 +++
 date = "2018-05-07T09:46:03+02:00"
 title = "Equal height rows with CSS"
+tags = [
+  "table",
+]
+categories = [
+  "css",
+]
 
 +++
 <!--more-->

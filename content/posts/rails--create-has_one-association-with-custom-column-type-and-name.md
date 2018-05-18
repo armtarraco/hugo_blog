@@ -1,6 +1,12 @@
 +++
 date = "2018-05-02T09:15:24+02:00"
 title = "Rails: create has_one association with custom column type and name"
+tags = [
+  "ruby",
+]
+categories = [
+  "documentation",
+]
 
 +++
 How to manage custom types like \`\`\`:uuid\`\`\`
@@ -21,17 +27,12 @@ Migration:
 Schema result
 
       create_table "users", id: :uuid, default: "uuid_generate_v4()", force: :cascade do |t|
-    
         t.uuid     "supplier_id"
-    
        ...
-    
       end
-    
       add_index "users", ["supplier_id"], name: "index_users_on_supplier_id", unique: true, using: :btree
     
       create_table "providers", id: :uuid, default: "uuid_generate_v4()", force: :cascade do |t|
-    
     ...
 
 In Postgres:
@@ -39,7 +40,6 @@ In Postgres:
 Indexes:
 
         "index_users_on_supplier_id" UNIQUE, btree (supplier_id)
-    
         ...
 
 Foreign Key constraints
@@ -49,13 +49,8 @@ Foreign Key constraints
 Models:
 
     Class User < ActiverRecord::Base
-    
       belongs_to  :supplier, class_name: 'Provider', dependent: :destroy, autosave: true
-    
     ...
-    
     Class Provider < ActiverRecord::Base
-    
       has_one :user, autosave: true
-    
     ...

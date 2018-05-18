@@ -1,8 +1,14 @@
----
-title: How_to_measure_elapsed_time_with_Ruby
-date: 2018-04-23 10:19:11 +0200
++++
+title = "How_to_measure_elapsed_time_with_Ruby"
+date = "2018-04-23 10:19:11 +0200"
+tags = [
+  "ruby",
+]
+categories = [
+  "documentation",
+]
++++
 
----
 When measuring elapsed time between events or execution duration, be careful with which system function you use. It can drive you to accuracy errors.
 
 <!--more-->

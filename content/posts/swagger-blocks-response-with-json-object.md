@@ -1,29 +1,36 @@
 +++
 date = "2018-05-17T16:41:07+02:00"
 title = "Swagger-blocks response with JSON object"
+tags = [
+  "swagger",
+  "ruby",
+]
+categories = [
+  "documentation",
+]
 
 +++
 <!--more-->
 
 In Rails controller
 
-      swagger_path '/supplier/services' do
-        operation :get do
-          key :description, 'List of users approved services'
-          response 200 do
-            key :description, 'List of approved services'
-            schema do
-              key :type, :object
-              property :services do
-                key :type, :array
-                items do
-                  key :'$ref', :ServiceInfoResponseForSupplierModel
-                end
+    swagger_path '/supplier/services' do
+      operation :get do
+        key :description, 'List of users approved services'
+        response 200 do
+          key :description, 'List of approved services'
+          schema do
+            key :type, :object
+            property :services do
+              key :type, :array
+              items do
+                key :'$ref', :ServiceInfoResponseForSupplierModel
               end
             end
           end
         end
       end
+    end
 
 Generates this in SwaggerHub
 

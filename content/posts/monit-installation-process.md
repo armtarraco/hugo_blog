@@ -1,8 +1,14 @@
 +++
 date = "2018-05-15T09:14:01+02:00"
 title = "Monit installation process"
-
+tags = [
+  "monit",
+]
+categories = [
+  "devops",
+]
 +++
+
 Monit installation example for monitoring Rails application deployed with Capistrano in a CentOS Linux machine.
 
 <!--more-->

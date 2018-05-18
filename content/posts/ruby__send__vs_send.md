@@ -1,8 +1,14 @@
----
-title: Ruby __send__ vs send
-date: 2018-04-23 10:06:11 +0200
++++
+title = "Ruby __send__ vs send"
+date = "2018-04-23 10:06:11 +0200"
+tags = [
+  "ruby",
+  "metaprogramming"
+]
+categories = [
+]
++++
 
----
 Metaprogramming in Ruby and methods delegation.
 <!--more-->
 

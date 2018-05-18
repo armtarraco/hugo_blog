@@ -1,6 +1,11 @@
 +++
 date = "2018-04-24T10:24:03+02:00"
 title = "Duplicate hash in Ruby"
+tags = [
+  "ruby",
+]
+categories = [
+]
 
 +++
 To copy and create a new independent hash in Ruby, use the following snippet.
