@@ -1,34 +1,4 @@
 ---
-pages:
-- posts/swagger-blocks-response-with-json-object.md
-- posts/install-gems-locally-to-project-in-rails.md
-- posts/issue-with-audio-in-linux-fedora-26.md
-- posts/monit-installation-process.md
-- posts/odoo-workflow-for-saleorder.md
-- posts/odoo-workflow.md
-- posts/selfsigned-ssl-certificate-for-develpment.md
-- posts/include-helper-in-devise-custom-mailer.md
-- posts/sublime-shortcuts-1.md
-- posts/git-difference-between-branches.md
-- posts/callback-conditional-to-only-some-fields-changes.md
-- posts/image-from-rails-assets-collection.md
-- posts/rspec-association-stub.md
-- posts/git-tagging.md
-- posts/devise-mailer-layout.md
-- posts/resolve-merge-conflict-with-git.md
-- posts/rails--create-has_one-association-with-custom-column-type-and-name.md
-- posts/equal-height-rows-with-css.md
-- posts/sublime-shortcuts.md
-- posts/rails-migration-to-remove-or-change-column-default-value.md
-- posts/ruby-toggle-or-items-ring.md
-- posts/compare-files-in-different-branches.md
-- posts/how--display-flex--or--display--grid--redefines-what--margin--auto--does-on-top-and-bottom--allowing-for-vertical-centering.md
-- posts/rails-debug-to-stderror.md
-- posts/postman-tests-sample.md
-- posts/fast-group-and-count-in-rails.md
-- posts/how-to-get-a-class-instance-from-a-variable-in-ruby.md
-- posts/list-affected-files-in-a-git-branch.md
-- posts/duplicate-hash-in-ruby.md
 hide_body: false
 is_partial: false
 fields:
@@ -47,3 +17,31 @@ fields:
   type: boolean
   hidden: false
   default: true
+pages:
+- posts/ruby-toggle-or-items-ring.md
+- posts/resolve-merge-conflict-with-git.md
+- posts/rails--create-has_one-association-with-custom-column-type-and-name.md
+- posts/rails-migration-to-remove-or-change-column-default-value.md
+- posts/postman-tests-sample.md
+- posts/how-to-get-a-class-instance-from-a-variable-in-ruby.md
+- posts/git-difference-between-branches.md
+- posts/duplicate-hash-in-ruby.md
+- posts/compare-files-in-different-branches.md
+- posts/callback-conditional-to-only-some-fields-changes.md
+- posts/swagger-blocks-response-with-json-object.md
+- posts/install-gems-locally-to-project-in-rails.md
+- posts/issue-with-audio-in-linux-fedora-26.md
+- posts/monit-installation-process.md
+- posts/odoo-workflow-for-saleorder.md
+- posts/odoo-workflow.md
+- posts/selfsigned-ssl-certificate-for-develpment.md
+- posts/include-helper-in-devise-custom-mailer.md
+- posts/image-from-rails-assets-collection.md
+- posts/git-tagging.md
+- posts/devise-mailer-layout.md
+- posts/equal-height-rows-with-css.md
+- posts/sublime-shortcuts.md
+- posts/how--display-flex--or--display--grid--redefines-what--margin--auto--does-on-top-and-bottom--allowing-for-vertical-centering.md
+- posts/rails-debug-to-stderror.md
+- posts/fast-group-and-count-in-rails.md
+- posts/list-affected-files-in-a-git-branch.md
