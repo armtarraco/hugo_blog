@@ -1,5 +1,5 @@
 +++
-title =  "Vue Postgresql"
+title = "Vue Postgresql"
 date = 2018-05-21T07:58:45+02:00
 featured_image = ""
 description = ""

@@ -1,5 +1,5 @@
 +++
-title =  "Skip callbacks with RSpec testing"
+title = "Skip callbacks with RSpec testing"
 date = 2018-05-18T23:50:23+02:00
 featured_image = ""
 description = ""

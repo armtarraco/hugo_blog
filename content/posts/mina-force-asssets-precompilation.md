@@ -1,5 +1,5 @@
 +++
-title =  "Force Rails assets compilation when deploying with mina"
+title = "Force Rails assets compilation when deploying with mina"
 date = 2018-05-23T07:58:45+02:00
 featured_image = ""
 description = ""

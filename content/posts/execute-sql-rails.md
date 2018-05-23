@@ -1,5 +1,5 @@
 +++
-title =  "Execute SQL query in Rails"
+title = "Execute SQL query in Rails"
 date = 2018-05-23T12:10:45+02:00
 featured_image = ""
 description = ""
