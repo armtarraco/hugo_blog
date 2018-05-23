@@ -1,12 +1,8 @@
 +++
+categories = ["rails"]
 date = "2018-04-27T09:13:19+02:00"
+tags = ["debug"]
 title = "Rails debug to STDERR"
-tags = [
-  "debug",
-]
-categories = [
-  "rails",
-]
 
 +++
 Write to STDERR ...

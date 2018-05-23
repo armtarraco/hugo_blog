@@ -1,16 +1,12 @@
 +++
-title = "Skip callbacks with RSpec testing"
-date = 2018-05-18T23:50:23+02:00
-featured_image = ""
+categories = ["testing"]
+date = "2018-05-18T23:50:23+02:00"
 description = ""
-tags = [
-  'callbacks'
-]
-categories = [
-  'testing'
-]
-+++
+featured_image = ""
+tags = ["callbacks"]
+title = "Skip callbacks with RSpec testing"
 
++++
 <!--more-->
 
     class Address < ActiveRecord::Base

@@ -1,11 +1,8 @@
 +++
+categories = []
 date = "2018-04-30T09:11:20+02:00"
+tags = ["ruby"]
 title = "Ruby toggle or items ring"
-tags = [
-  "ruby",
-]
-categories = [
-]
 
 +++
 <!--more-->

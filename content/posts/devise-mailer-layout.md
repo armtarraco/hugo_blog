@@ -1,13 +1,8 @@
 +++
+categories = ["rails"]
 date = "2018-05-11T09:17:46+02:00"
-draft = false
+tags = ["devise"]
 title = "Devise mailer layout"
-tags = [
-  "devise",
-]
-categories = [
-  "rails",
-]
 
 +++
 <!--more-->

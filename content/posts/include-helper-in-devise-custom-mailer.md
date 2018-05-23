@@ -1,13 +1,8 @@
 +++
+categories = ["rails"]
 date = "2018-05-11T09:22:32+02:00"
-draft = false
+tags = ["devise"]
 title = "Include helper in Devise Custom Mailer"
-tags = [
-  "devise",
-]
-categories = [
-  "rails",
-]
 
 +++
 <!--more-->

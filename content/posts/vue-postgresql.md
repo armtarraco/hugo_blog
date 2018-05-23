@@ -1,10 +1,11 @@
 +++
-title = "Vue Postgresql"
-date = 2018-05-21T07:58:45+02:00
-featured_image = ""
-description = ""
-tags = []
 categories = ["vue"]
+date = "2018-05-21T07:58:45+02:00"
+description = ""
+featured_image = ""
+tags = []
+title = "Vue Postgresql"
+
 +++
 <!--more-->
 

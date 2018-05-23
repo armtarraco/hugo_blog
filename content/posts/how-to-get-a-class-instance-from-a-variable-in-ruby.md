@@ -1,11 +1,8 @@
 +++
+categories = []
 date = "2018-04-25T12:05:08+02:00"
+tags = ["ruby"]
 title = "How to get a class instance from a variable in Ruby"
-tags = [
-  "ruby",
-]
-categories = [
-]
 
 +++
 Everything in Ruby is an Object

@@ -1,12 +1,8 @@
 +++
+categories = ["git"]
 date = "2018-05-11T09:16:46+02:00"
-draft = false
+tags = []
 title = "GIT Tagging"
-tags = [
-]
-categories = [
-  "git",
-]
 
 +++
 <!--more-->

@@ -1,12 +1,8 @@
 +++
+categories = ["documentation"]
 date = "2018-05-02T09:15:24+02:00"
+tags = ["ruby"]
 title = "Rails: create has_one association with custom column type and name"
-tags = [
-  "ruby",
-]
-categories = [
-  "documentation",
-]
 
 +++
 How to manage custom types like \`\`\`:uuid\`\`\`

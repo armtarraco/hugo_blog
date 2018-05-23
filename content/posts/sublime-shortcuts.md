@@ -1,11 +1,8 @@
 +++
+categories = []
 date = "2018-05-07T09:44:05+02:00"
+tags = ["sublime"]
 title = "Sublime shortcuts"
-tags = [
-  "sublime",
-]
-categories = [
-]
 
 +++
 <!--more-->

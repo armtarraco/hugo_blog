@@ -1,13 +1,8 @@
 +++
+categories = ["documentation"]
 date = "2018-05-17T16:41:07+02:00"
+tags = ["swagger", "ruby"]
 title = "Swagger-blocks response with JSON object"
-tags = [
-  "swagger",
-  "ruby",
-]
-categories = [
-  "documentation",
-]
 
 +++
 <!--more-->

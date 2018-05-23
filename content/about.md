@@ -1,8 +1,9 @@
 +++
-title = "About"
 date = "2018-05-18T20:39:07+02:00"
-+++
+title = "About"
+type = "page"
 
++++
 This a collection of tips and recipes about developing Web applications with RubyOnRails.
 
 {{< figure src="/images/Victor_Hugo-Hunchback.jpg" title="Illustration from Victor Hugo et son temps (1881)" >}}

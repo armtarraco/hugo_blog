@@ -1,12 +1,8 @@
 +++
+categories = ["rails"]
 date = "2018-05-15T09:31:50+02:00"
+tags = ["odoo"]
 title = "Odoo workflow for SaleOrder"
-tags = [
-  "odoo",
-]
-categories = [
-  "rails",
-]
 
 +++
 <!--more-->

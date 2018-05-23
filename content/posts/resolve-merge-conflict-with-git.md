@@ -1,11 +1,8 @@
 +++
+categories = ["git"]
 date = "2018-05-07T09:49:04+02:00"
+tags = []
 title = "Resolve merge conflict with GIT"
-tags = [
-]
-categories = [
-  "git",
-]
 
 +++
 <!--more-->

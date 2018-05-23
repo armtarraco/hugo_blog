@@ -1,12 +1,8 @@
 +++
+categories = ["rails"]
 date = "2018-05-15T09:29:46+02:00"
+tags = ["odoo"]
 title = "Odoo SaleOrder confirmation as soon as it gets created"
-tags = [
-  "odoo",
-]
-categories = [
-  "rails",
-]
 
 +++
 I want to confirm sale order as soon as it gets created.  

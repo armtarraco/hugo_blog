@@ -1,12 +1,12 @@
 +++
-title = "Increasing the amount of inotify watchers"
-date = 2018-05-19T01:14:12+02:00
-featured_image = ""
+categories = ["devops"]
+date = "2018-05-19T01:14:12+02:00"
 description = ""
+featured_image = ""
 tags = []
-categories = ['devops']
-+++
+title = "Increasing the amount of inotify watchers"
 
++++
 https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers
 
 If you are not interested in the technical details and only want to get Listen to work:

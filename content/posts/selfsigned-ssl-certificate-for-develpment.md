@@ -1,14 +1,9 @@
 +++
+categories = ["devops"]
 date = "2018-05-11T09:40:14+02:00"
-draft = false
 header = ["/uploads/2018/05/11/Experience.jpeg"]
+tags = ["ssl"]
 title = "Selfsigned SSL certificate for develpment"
-tags = [
-  "ssl",
-]
-categories = [
-  "devops",
-]
 
 +++
 <!--more-->
