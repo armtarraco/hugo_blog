@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metaprogramming on Alfredo&#39;s Blog</title>
+    <link>https://alfredoroca.bitbucket.io/tags/metaprogramming/</link>
+    <description>Recent content in Metaprogramming on Alfredo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Apr 2018 10:06:11 +0200</lastBuildDate>
+    
+	<atom:link href="https://alfredoroca.bitbucket.io/tags/metaprogramming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ruby __send__ vs send</title>
+      <link>https://alfredoroca.bitbucket.io/posts/ruby__send__vs_send/</link>
+      <pubDate>Mon, 23 Apr 2018 10:06:11 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/ruby__send__vs_send/</guid>
+      <description>&lt;p&gt;Metaprogramming in Ruby and methods delegation.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

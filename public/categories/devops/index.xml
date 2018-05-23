@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devops on Alfredo&#39;s Blog</title>
+    <link>https://alfredoroca.bitbucket.io/categories/devops/</link>
+    <description>Recent content in Devops on Alfredo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 May 2018 01:14:12 +0200</lastBuildDate>
+    
+	<atom:link href="https://alfredoroca.bitbucket.io/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Increasing the amount of inotify watchers</title>
+      <link>https://alfredoroca.bitbucket.io/posts/increment-notify-watchers/</link>
+      <pubDate>Sat, 19 May 2018 01:14:12 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/increment-notify-watchers/</guid>
+      <description>https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers
+If you are not interested in the technical details and only want to get Listen to work:
+If you are running Debian, RedHat, or another similar Linux distribution, run the following in a terminal:
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;&amp;amp; sudo sysctl -p  If you are running ArchLinux, run the following command instead (see here for why):
+echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/40-max-user-watches.conf &amp;amp;&amp;amp; sudo sysctl --system  Then paste it in your terminal and press on enter to run it.</description>
+    </item>
+    
+    <item>
+      <title>Monit installation process</title>
+      <link>https://alfredoroca.bitbucket.io/posts/monit-installation-process/</link>
+      <pubDate>Tue, 15 May 2018 09:14:01 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/monit-installation-process/</guid>
+      <description>&lt;p&gt;Monit installation example for monitoring Rails application deployed with Capistrano in a CentOS Linux machine.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Selfsigned SSL certificate for develpment</title>
+      <link>https://alfredoroca.bitbucket.io/posts/selfsigned-ssl-certificate-for-develpment/</link>
+      <pubDate>Fri, 11 May 2018 09:40:14 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/selfsigned-ssl-certificate-for-develpment/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Alfredo&#39;s Blog</title>
+    <link>https://alfredoroca.bitbucket.io/posts/</link>
+    <description>Recent content in Posts on Alfredo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 May 2018 12:47:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://alfredoroca.bitbucket.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>10/10/10 Rule for decision making</title>
+      <link>https://alfredoroca.bitbucket.io/posts/decision-making/</link>
+      <pubDate>Wed, 23 May 2018 12:47:00 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/decision-making/</guid>
+      <description> Before taking a decision ask yourself these questions:
+ How will I feel about my decision in 10 minutes?
+ How will I feel about my decision in 10 months?
+ How will I feel about my decision in 10 years?
+  </description>
+    </item>
+    
+    <item>
+      <title>Execute SQL query in Rails</title>
+      <link>https://alfredoroca.bitbucket.io/posts/execute-sql-rails/</link>
+      <pubDate>Wed, 23 May 2018 12:10:45 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/execute-sql-rails/</guid>
+      <description>&lt;p&gt;Use ActiveRecord::Base.connection.exec_query to execute a SQL statement
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Force Rails assets compilation when deploying with mina</title>
+      <link>https://alfredoroca.bitbucket.io/posts/mina-force-asssets-precompilation/</link>
+      <pubDate>Wed, 23 May 2018 07:58:45 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/mina-force-asssets-precompilation/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Vue Postgresql</title>
+      <link>https://alfredoroca.bitbucket.io/posts/vue-postgresql/</link>
+      <pubDate>Mon, 21 May 2018 07:58:45 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/vue-postgresql/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Increasing the amount of inotify watchers</title>
+      <link>https://alfredoroca.bitbucket.io/posts/increment-notify-watchers/</link>
+      <pubDate>Sat, 19 May 2018 01:14:12 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/increment-notify-watchers/</guid>
+      <description>https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers
+If you are not interested in the technical details and only want to get Listen to work:
+If you are running Debian, RedHat, or another similar Linux distribution, run the following in a terminal:
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;&amp;amp; sudo sysctl -p  If you are running ArchLinux, run the following command instead (see here for why):
+echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/40-max-user-watches.conf &amp;amp;&amp;amp; sudo sysctl --system  Then paste it in your terminal and press on enter to run it.</description>
+    </item>
+    
+    <item>
+      <title>Skip callbacks with RSpec testing</title>
+      <link>https://alfredoroca.bitbucket.io/posts/skip_callbacks_with_rspec_testing/</link>
+      <pubDate>Fri, 18 May 2018 23:50:23 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/skip_callbacks_with_rspec_testing/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fire Execution of Commands Inside the Vagrant</title>
+      <link>https://alfredoroca.bitbucket.io/posts/fire-execution-of-commands-inside-the-vagrant/</link>
+      <pubDate>Fri, 18 May 2018 23:43:57 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/fire-execution-of-commands-inside-the-vagrant/</guid>
+      <description>https://www.calebwoods.com/2015/05/05/vagrant-guest-commands/
+vagrant ssh -c &#39;cd /vagrant; bundle exec rspec&#39;  </description>
+    </item>
+    
+    <item>
+      <title>Swagger-blocks response with JSON object</title>
+      <link>https://alfredoroca.bitbucket.io/posts/swagger-blocks-response-with-json-object/</link>
+      <pubDate>Thu, 17 May 2018 16:41:07 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/swagger-blocks-response-with-json-object/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Install Gems locally to project in Rails</title>
+      <link>https://alfredoroca.bitbucket.io/posts/install-gems-locally-to-project-in-rails/</link>
+      <pubDate>Thu, 17 May 2018 11:04:31 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/install-gems-locally-to-project-in-rails/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Issue with audio in Linux Fedora 26</title>
+      <link>https://alfredoroca.bitbucket.io/posts/issue-with-audio-in-linux-fedora-26/</link>
+      <pubDate>Wed, 16 May 2018 13:31:20 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/issue-with-audio-in-linux-fedora-26/</guid>
+      <description>When audio goes off in Chrome, kill user process pulseaudio and restart Chrome</description>
+    </item>
+    
+    <item>
+      <title>Odoo workflow for SaleOrder</title>
+      <link>https://alfredoroca.bitbucket.io/posts/odoo-workflow-for-saleorder/</link>
+      <pubDate>Tue, 15 May 2018 09:31:50 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/odoo-workflow-for-saleorder/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Odoo SaleOrder confirmation as soon as it gets created</title>
+      <link>https://alfredoroca.bitbucket.io/posts/odoo-workflow/</link>
+      <pubDate>Tue, 15 May 2018 09:29:46 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/odoo-workflow/</guid>
+      <description>&lt;p&gt;I want to confirm sale order as soon as it gets created.&lt;br /&gt;
+You should use the method action_confirm.&lt;/p&gt;
+
+&lt;p&gt;From &lt;a href=&#34;https://stackoverflow.com/a/43648668&#34; title=&#34;https://stackoverflow.com/a/43648668&#34;&gt;https://stackoverflow.com/a/43648668&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Monit installation process</title>
+      <link>https://alfredoroca.bitbucket.io/posts/monit-installation-process/</link>
+      <pubDate>Tue, 15 May 2018 09:14:01 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/monit-installation-process/</guid>
+      <description>&lt;p&gt;Monit installation example for monitoring Rails application deployed with Capistrano in a CentOS Linux machine.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Selfsigned SSL certificate for develpment</title>
+      <link>https://alfredoroca.bitbucket.io/posts/selfsigned-ssl-certificate-for-develpment/</link>
+      <pubDate>Fri, 11 May 2018 09:40:14 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/selfsigned-ssl-certificate-for-develpment/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>GIT difference between branches</title>
+      <link>https://alfredoroca.bitbucket.io/posts/git-difference-between-branches/</link>
+      <pubDate>Fri, 11 May 2018 09:23:57 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/git-difference-between-branches/</guid>
+      <description>&lt;p&gt;This command will show you what files are different between your current branch and &lt;some-other-branch&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Include helper in Devise Custom Mailer</title>
+      <link>https://alfredoroca.bitbucket.io/posts/include-helper-in-devise-custom-mailer/</link>
+      <pubDate>Fri, 11 May 2018 09:22:32 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/include-helper-in-devise-custom-mailer/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Callback conditional to only some fields changes</title>
+      <link>https://alfredoroca.bitbucket.io/posts/callback-conditional-to-only-some-fields-changes/</link>
+      <pubDate>Fri, 11 May 2018 09:21:28 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/callback-conditional-to-only-some-fields-changes/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Image from Rails assets collection</title>
+      <link>https://alfredoroca.bitbucket.io/posts/image-from-rails-assets-collection/</link>
+      <pubDate>Fri, 11 May 2018 09:20:25 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/image-from-rails-assets-collection/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RSpec association stub</title>
+      <link>https://alfredoroca.bitbucket.io/posts/rspec-association-stub/</link>
+      <pubDate>Fri, 11 May 2018 09:19:36 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/rspec-association-stub/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Devise mailer layout</title>
+      <link>https://alfredoroca.bitbucket.io/posts/devise-mailer-layout/</link>
+      <pubDate>Fri, 11 May 2018 09:17:46 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/devise-mailer-layout/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>GIT Tagging</title>
+      <link>https://alfredoroca.bitbucket.io/posts/git-tagging/</link>
+      <pubDate>Fri, 11 May 2018 09:16:46 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/git-tagging/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Resolve merge conflict with GIT</title>
+      <link>https://alfredoroca.bitbucket.io/posts/resolve-merge-conflict-with-git/</link>
+      <pubDate>Mon, 07 May 2018 09:49:04 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/resolve-merge-conflict-with-git/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Equal height rows with CSS</title>
+      <link>https://alfredoroca.bitbucket.io/posts/equal-height-rows-with-css/</link>
+      <pubDate>Mon, 07 May 2018 09:46:03 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/equal-height-rows-with-css/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sublime shortcuts</title>
+      <link>https://alfredoroca.bitbucket.io/posts/sublime-shortcuts/</link>
+      <pubDate>Mon, 07 May 2018 09:44:05 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/sublime-shortcuts/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rails migration to remove or change column default value</title>
+      <link>https://alfredoroca.bitbucket.io/posts/rails-migration-to-remove-or-change-column-default-value/</link>
+      <pubDate>Fri, 04 May 2018 09:53:48 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/rails-migration-to-remove-or-change-column-default-value/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rails: create has_one association with custom column type and name</title>
+      <link>https://alfredoroca.bitbucket.io/posts/rails--create-has_one-association-with-custom-column-type-and-name/</link>
+      <pubDate>Wed, 02 May 2018 09:15:24 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/rails--create-has_one-association-with-custom-column-type-and-name/</guid>
+      <description>&lt;p&gt;How to manage custom types like ```:uuid```&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ruby toggle or items ring</title>
+      <link>https://alfredoroca.bitbucket.io/posts/ruby-toggle-or-items-ring/</link>
+      <pubDate>Mon, 30 Apr 2018 09:11:20 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/ruby-toggle-or-items-ring/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Compare files in different branches with Git</title>
+      <link>https://alfredoroca.bitbucket.io/posts/compare-files-in-different-branches/</link>
+      <pubDate>Fri, 27 Apr 2018 11:38:03 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/compare-files-in-different-branches/</guid>
+      <description>&lt;p&gt;Find changes with Git comparing files between branches.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How `display:flex` or `display: grid` redefines what `margin: auto` does on top &amp; bottom, allowing for vertical centering</title>
+      <link>https://alfredoroca.bitbucket.io/posts/how--display-flex--or--display--grid--redefines-what--margin--auto--does-on-top-and-bottom--allowing-for-vertical-centering/</link>
+      <pubDate>Fri, 27 Apr 2018 09:19:50 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/how--display-flex--or--display--grid--redefines-what--margin--auto--does-on-top-and-bottom--allowing-for-vertical-centering/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rails debug to STDERR</title>
+      <link>https://alfredoroca.bitbucket.io/posts/rails-debug-to-stderror/</link>
+      <pubDate>Fri, 27 Apr 2018 09:13:19 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/rails-debug-to-stderror/</guid>
+      <description>&lt;p&gt;Write to STDERR &amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Postman tests sample</title>
+      <link>https://alfredoroca.bitbucket.io/posts/postman-tests-sample/</link>
+      <pubDate>Fri, 27 Apr 2018 09:09:34 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/postman-tests-sample/</guid>
+      <description>&lt;p&gt;See more in Postman-echo collection in Postman App.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fast group and count in Rails</title>
+      <link>https://alfredoroca.bitbucket.io/posts/fast-group-and-count-in-rails/</link>
+      <pubDate>Thu, 26 Apr 2018 22:25:09 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/fast-group-and-count-in-rails/</guid>
+      <description>&lt;p&gt;For instance, count new users by month.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to get a class instance from a variable in Ruby</title>
+      <link>https://alfredoroca.bitbucket.io/posts/how-to-get-a-class-instance-from-a-variable-in-ruby/</link>
+      <pubDate>Wed, 25 Apr 2018 12:05:08 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/how-to-get-a-class-instance-from-a-variable-in-ruby/</guid>
+      <description>&lt;p&gt;Everything in Ruby is an Object
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Files affected in a branch compared with other branch</title>
+      <link>https://alfredoroca.bitbucket.io/posts/list-affected-files-in-a-git-branch/</link>
+      <pubDate>Tue, 24 Apr 2018 10:42:09 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/list-affected-files-in-a-git-branch/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Duplicate hash in Ruby</title>
+      <link>https://alfredoroca.bitbucket.io/posts/duplicate-hash-in-ruby/</link>
+      <pubDate>Tue, 24 Apr 2018 10:24:03 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/duplicate-hash-in-ruby/</guid>
+      <description>&lt;p&gt;To copy and create a new independent hash in Ruby, use the following snippet.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How_to_measure_elapsed_time_with_Ruby</title>
+      <link>https://alfredoroca.bitbucket.io/posts/how_to_measure_elapsed_time_with_ruby/</link>
+      <pubDate>Mon, 23 Apr 2018 10:19:11 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/how_to_measure_elapsed_time_with_ruby/</guid>
+      <description>&lt;p&gt;When measuring elapsed time between events or execution duration, be careful with which system function you use. It can drive you to accuracy errors.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ruby __send__ vs send</title>
+      <link>https://alfredoroca.bitbucket.io/posts/ruby__send__vs_send/</link>
+      <pubDate>Mon, 23 Apr 2018 10:06:11 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/ruby__send__vs_send/</guid>
+      <description>&lt;p&gt;Metaprogramming in Ruby and methods delegation.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

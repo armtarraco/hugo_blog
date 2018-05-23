@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assets on Alfredo&#39;s Blog</title>
+    <link>https://alfredoroca.bitbucket.io/tags/assets/</link>
+    <description>Recent content in Assets on Alfredo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 May 2018 07:58:45 +0200</lastBuildDate>
+    
+	<atom:link href="https://alfredoroca.bitbucket.io/tags/assets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Force Rails assets compilation when deploying with mina</title>
+      <link>https://alfredoroca.bitbucket.io/posts/mina-force-asssets-precompilation/</link>
+      <pubDate>Wed, 23 May 2018 07:58:45 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/mina-force-asssets-precompilation/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Image from Rails assets collection</title>
+      <link>https://alfredoroca.bitbucket.io/posts/image-from-rails-assets-collection/</link>
+      <pubDate>Fri, 11 May 2018 09:20:25 +0200</pubDate>
+      
+      <guid>https://alfredoroca.bitbucket.io/posts/image-from-rails-assets-collection/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
