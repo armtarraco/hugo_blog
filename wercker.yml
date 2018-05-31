@@ -12,3 +12,4 @@ deploy:
     - lukevivier/gh-pages@0.2.1:
         domain: alfredoroca.bitbucket.io
         basedir: public
+        token: f6b8ed9ac5524753d32982a6cc38838e4f846eff2ce94f3e32911f9c92730440
