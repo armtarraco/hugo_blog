@@ -1,8 +1,8 @@
 +++
-categories = []
+categories = ["ruby"]
 date = "2018-04-23T10:06:11+02:00"
-tags = ["ruby", "metaprogramming"]
-title = "Ruby __send__ vs send"
+tags = ["metaprogramming"]
+title = "Ruby '__send__' vs 'send'"
 
 +++
 Metaprogramming in Ruby and methods delegation.
