@@ -7,7 +7,7 @@ tags = []
 categories = ['rails']
 +++
 
-The following migration throws an exception when trying to change the 'stars' column type from string to decimal.
+The following migration throws an exception when trying to change the 'stars' column type from string to decimal because it tries to convert string content to numeric.
 
     class ChangeColumnStarsOfRating < ActiveRecord::Migration
       def change
@@ -24,19 +24,14 @@ The error is:
 
     PG::DatatypeMismatch: ERROR:  column "stars" cannot be cast automatically to type numeric
 
-The solution with a reversible migration is
+This solution with a reversible migration can convert stars type to numeric keeping the content:
 
     class ChangeColumnStarsOfRating < ActiveRecord::Migration
       def self.up
-        change_column :ratings, :stars, 'decimal USING stars::numeric(3,1)'
+        change_column :ratings, :stars, 'decimal USING CAST(character_length(stars) AS integer)'
       end
       
       def self.down
         change_column :ratings, :stars, :string
       end
     end
-
-
-Another possibility is using the Postgres function CAST
-
-    change_column :ratings, :stars, 'decimal USING CAST(stars AS integer)'
