@@ -6,6 +6,21 @@
   <div class="pure-u-11-12 pure-u-md-2-3">
   <div class="post-content">
   {{ .Content }}
+
+    <p class="posts-name">Tags:
+      {{ range $key, $value := .Site.Taxonomies.tags }}
+          <a href="/tags/{{ $key | urlize }}">{{ $key | title }}</a>
+      {{ end }}
+    </p>
+    <hr>
+
+    <p class="posts-name">Categories:
+      {{ range $key, $value := .Site.Taxonomies.categories }}
+          <a href="/tags/{{ $key | urlize }}">{{ $key | title }}</a>
+      {{ end }}
+    </p>
+    <hr>
+
     <p class="posts-name">Recent posts:</p>
 
     <ul class="posts">

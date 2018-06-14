@@ -9,7 +9,7 @@ name = "Alfredo Roca"
 favicon = ""
 highlight = true
 hjslangs = ["go", "vim", "ruby", "bash"]
-topmenu = "categories"
+#topmenu = "categories"
 [taxonomies]
 category = "categories"
 tag = "tags"
