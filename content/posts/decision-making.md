@@ -4,7 +4,7 @@ date = 2018-05-23T12:47:00+02:00
 featured_image = ""
 description = ""
 tags = []
-categories = ["misc"]
+categories = ['misc']
 +++
 
 <!--mode-->
