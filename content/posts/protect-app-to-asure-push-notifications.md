@@ -7,7 +7,7 @@ tags = ['push notifications', 'Huawei']
 categories = ['misc']
 +++
 
-Mobiles with EMUI (Huawei, ...) do not show pushed notifications as part of the aggressive battery saving methods. To avoid this behaviour you must protect your app against being killed when screen is off.
+Mobiles with EMUI (Huawei, ...) do not show pushed notifications if the app is killed as part of the aggressive battery saving methods. To avoid this behaviour you must protect your app against being killed when screen is off.
 
 Step 1: Go to Settings --> Advanced settings --> Battery manager --> Protected apps, then find the app you want to see notifications from, and protect it. This is "whitelisting" the app so Huawei's overeager software doesn't shut it down for no reason.
 

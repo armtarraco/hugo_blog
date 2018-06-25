@@ -8,9 +8,10 @@ categories = ['bash']
 +++
 
 This script opens several tabs in gnome-terminal, selecting different profiles to easyly distinguish them.
+
 To customize the tab title, go to profile preferences, command tab and choose among replacing or adding to current title. I personnaly prefer replacing the title with my own one.
 
-The sintax each as follows
+The sintax each as follows:
 
     gnome-terminal -t "<tab-title>" --tab-with-profile=<Profile-name> --working-directory=<working folder path> \
 
