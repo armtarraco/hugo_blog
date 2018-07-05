@@ -16,7 +16,7 @@
 
     <p class="posts-name">Categories:
       {{ range $key, $value := .Site.Taxonomies.categories }}
-          <a href="/tags/{{ $key | urlize }}">{{ $key | title }}</a>
+          <a href="/categories/{{ $key | urlize }}">{{ $key | title }}</a>
       {{ end }}
     </p>
     <hr>
