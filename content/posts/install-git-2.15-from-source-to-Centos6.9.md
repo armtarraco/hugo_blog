@@ -31,3 +31,7 @@ Verify
 
     git --version
     => git version 2.15.0
+
+More versions at https://mirrors.edge.kernel.org/pub/software/scm/git/
+
+NOTE For Fedora, use `dnf` instead of `yum`.

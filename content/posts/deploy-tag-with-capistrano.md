@@ -9,19 +9,18 @@ categories = ['devops']
 
 <!--more-->
 
-Capistrano uses the parameter `branch`to choose the commit to deploy.
+Capistrano uses the parameter `branch` to choose which commit to deploy.
 
-Therefore this will do the task
+Therefore, this will do the task
 
-    branch=<tag> cap <env> deploy
+    branch=<tag> cap <environment> deploy
 
 You can put in your script the following
 
     set :branch do
       default_tag = `git tag --sort=creatordate`.split("\n").last
 
-      ask(:tag, "Tag to deploy (make sure to push the tag first): [#{default_tag}] ")
-      tag = default_tag if tag.empty?
+      ask(:tag, default_tag)
       tag
     end
 
@@ -35,10 +34,10 @@ you can combine both strategies with
       default_branch = ENV['BRANCH'] || :master
       last_tag = `git tag --sort=creatordate`.split("\n").last
 
-      ask(:tag_to_deploy, "Make sure to push the tag first, last is #{last_tag}. Empty will deploy branch #{default_branch}")
+      ask(:tag_to_deploy, default_branch)
       fetch(:tag_to_deploy, default_branch)
     end
 
-Maybe you have to update your git to support --sort option.
+Maybe you have to update your Git to support --sort option.
 
-Also, do not exclude .git from your Vagrantfile config.vm.synced_folder.
+Also, do not exclude `.git` from your Vagrantfile `config.vm.synced_folder`.
