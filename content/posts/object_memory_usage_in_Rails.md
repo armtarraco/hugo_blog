@@ -7,6 +7,8 @@ tags = ['memory']
 categories = ['rails']
 +++
 
+<!--more-->
+
 A simple way is
 
     require 'objspace'
