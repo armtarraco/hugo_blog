@@ -40,3 +40,6 @@ Bootstrap the application with vue-cli
     DONE  Compiled successfully in 4591ms
     Your application is running here: http://localhost:8081
 
+Installing modules
+
+    npm install axios
