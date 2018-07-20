@@ -43,3 +43,21 @@ Bootstrap the application with vue-cli
 Installing modules
 
     npm install axios
+    npm install bootstrap-vue bootstrap
+
+In order to use object spread operator '...', at this moment is necessary to install the following plugin
+
+https://babeljs.io/docs/en/babel-plugin-transform-object-rest-spread/
+
+Source: https://github.com/symfony/webpack-encore/issues/254
+
+For example, 
+
+    export default new Vuex.Store({
+      state,
+      mutations,
+      getters,
+      computed: {
+        ...mapGetters(['getCounter'])
+      }
+    })
