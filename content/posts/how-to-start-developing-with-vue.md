@@ -76,16 +76,13 @@ Create destination folder
     sudo chown deployer:deployer eelp_form_builder/
 
 
-sudo usermod -a -G deployer nginx
-
-
 HTTP server for Node
 
     npm install http-server -g
 
     http-server eelp_form_builder/ -p 8085
 
-Configuración nginx para integrarlo en un servicor existente
+nginx configuration on dashboard server
 
     location /eelp_form_builder/ {
         root /var/www/eelp_form_builder/index.html;

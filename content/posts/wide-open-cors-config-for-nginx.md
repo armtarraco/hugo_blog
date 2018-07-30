@@ -11,7 +11,8 @@ categories = ['nginx']
 
 Source: https://gist.github.com/michiel/1064640
 
-Add this block to location section of server configuration
+Add this block to location section of server configuration.
+Remember allow the necessary headers
 
     if ($request_method = 'OPTIONS') {
         add_header 'Access-Control-Allow-Origin' $http_origin always;
@@ -20,25 +21,21 @@ Add this block to location section of server configuration
         add_header 'Access-Control-Allow-Headers' 'x-user-token,x-flavour,Authorization,Origin,Accept,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
         return 204;
      }
-
      if ($request_method = 'POST') {
         add_header 'Access-Control-Allow-Origin' $http_origin always;
         add_header 'Access-Control-Allow-Credentials' 'true' always;
         add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS, DELETE';
         add_header 'Access-Control-Allow-Headers' 'x-user-token,x-flavour,Authorization,Origin,Accept,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
      }
-
      if ($request_method = 'GET') {
         add_header 'Access-Control-Allow-Origin' $http_origin always;
         add_header 'Access-Control-Allow-Credentials' 'true' always;
         add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS, DELETE';
         add_header 'Access-Control-Allow-Headers' 'x-user-token,x-flavour,Authorization,Origin,Accept,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
      }
-
      if ($request_method = 'DELETE') {
         add_header 'Access-Control-Allow-Origin' $http_origin always;
         add_header 'Access-Control-Allow-Credentials' 'true' always;
         add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS, DELETE';
         add_header 'Access-Control-Allow-Headers' 'x-user-token,x-flavour,Authorization,Origin,Accept,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
      }
-
