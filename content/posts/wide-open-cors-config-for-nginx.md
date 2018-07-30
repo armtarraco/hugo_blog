@@ -4,7 +4,7 @@ date = 2018-07-13T13:25:04+02:00
 featured_image = ""
 description = ""
 tags = ['cors']
-categories = ['nginx']
+categories = ['nginx', 'devops']
 +++
 
 <!--more-->

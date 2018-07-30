@@ -4,7 +4,7 @@ date = 2018-07-13T11:43:03+02:00
 featured_image = ""
 description = ""
 tags = []
-categories = ['node']
+categories = ['node', 'devops']
 +++
 
 <!--more-->
