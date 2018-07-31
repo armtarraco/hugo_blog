@@ -4,7 +4,7 @@ title = "About"
 type = "page"
 
 +++
-This a collection of tips and recipes about developing Web applications with RubyOnRails.
+This a collection of tips and recipes about development useful for developers using Ruby, RoR, JS, Vue, Vagrant, and DevOps.
 
 {{< figure src="/images/Victor_Hugo-Hunchback.jpg" title="Illustration from Victor Hugo et son temps (1881)" >}}
 
