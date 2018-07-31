@@ -1,8 +1,31 @@
-{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
-{{ define "main" }}
-    <article class="center cf pv5 measure-wide-l">
-      <h1>
-        This is not the page you were looking for
-      </h1>
-    </article>
-{{ end }}
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<div class="pure-g">
+  <div class="pure-u-1-24 pure-u-md-1-6"></div>
+  <div class="pure-u-11-12 pure-u-md-2-3">
+    <div class="post-content">
+    {{ .Content }}
+
+      <p class="posts-name">Tags:
+        {{ range $key, $value := .Site.Taxonomies.tags }}
+            <a href="/tags/{{ $key | urlize }}">{{ $key | title }}</a>
+        {{ end }}
+      </p>
+      <hr>
+
+      <p class="posts-name">Categories:
+        {{ range $key, $value := .Site.Taxonomies.categories }}
+            <a href="/categories/{{ $key | urlize }}">{{ $key | title }}</a>
+        {{ end }}
+      </p>
+      <hr>
+
+
+      <h1 id="title" style='text-align: center; margin-top: 3em;'><a href="{{ "/" | relURL }}">Page not found.</a></h1>
+
+    </div>
+  </div>
+</div>
+
+{{ partial "footer.html" . }}

@@ -1,5 +1,5 @@
 baseURL = "http://hugo.67webs.com/"
-uglyURLs = true
+#uglyURLs = true
 languageCode = "en-us"
 theme = "temple"
 title = "Alfredo's Blog"
