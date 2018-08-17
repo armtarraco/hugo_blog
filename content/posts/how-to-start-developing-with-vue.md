@@ -7,7 +7,7 @@ tags = []
 categories = ['node', 'vue']
 +++
 
-<!--more-->
+<!-- more -->
 
 Install node and npm
 
@@ -44,6 +44,7 @@ Installing modules
 
     npm install axios
     npm install bootstrap-vue bootstrap
+    npm install --save-dev @vue/test-utils
 
 In order to use object spread operator '...', at this moment is necessary to install the following plugin
 
@@ -92,4 +93,12 @@ nginx configuration on dashboard server
         proxy_set_header Host $host;
         rewrite ^/eelp_form_builder/(.*)$ /$1 break;
     }
+
+Testing
+
+https://tighten.co/blog/its-time-to-start-testing-your-vue-components-getting-started-with-jest
+
+CORS enabling
+
+If connected to a Backend Rails server, CORS must be enabled. See http://hugo.67webs.com/posts/wide-open-cors-config-for-nginx/
 
