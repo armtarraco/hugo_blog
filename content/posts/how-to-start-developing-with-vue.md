@@ -98,6 +98,10 @@ Testing
 
 https://tighten.co/blog/its-time-to-start-testing-your-vue-components-getting-started-with-jest
 
+https://github.com/jest-community/jest-extended
+http://babeljs.io/docs/en/babel-plugin-transform-async-generator-functions
+https://babeljs.io/docs/en/babel-polyfill/
+
 CORS enabling
 
 If connected to a Backend Rails server, CORS must be enabled. See http://hugo.67webs.com/posts/wide-open-cors-config-for-nginx/
