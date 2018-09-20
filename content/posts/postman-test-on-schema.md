@@ -31,6 +31,15 @@ But if you want reported some more information when it fails...
       }
     });
 
+    pm.test('No missing keys in response', function() {
+      const valid = tv4.validate(responseJSON, schema);
+      if (!valid) {
+          console.log("===missing keys=", tv4.missing);
+      }
+      pm.expect(tv4.missing).to.eql([]);
+    });
+
+
 then you get...
 
 
