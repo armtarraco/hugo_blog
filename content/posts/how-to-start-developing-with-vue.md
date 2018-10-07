@@ -18,7 +18,7 @@ Install node and npm
     npm -v
     => 5.6.0
 
-Install vue-cli
+Install vue-cli 2
 
     sudo npm install -g vue-cli
     =>
@@ -52,7 +52,7 @@ https://babeljs.io/docs/en/babel-plugin-transform-object-rest-spread/
 
 Source: https://github.com/symfony/webpack-encore/issues/254
 
-For example, 
+For example,
 
     export default new Vuex.Store({
       state,
@@ -94,6 +94,20 @@ nginx configuration on dashboard server
         rewrite ^/eelp_form_builder/(.*)$ /$1 break;
     }
 
+New server block -> eelp_form_builder
+
+    server {
+            listen 80;
+            listen [::]:80;
+
+            root /var/www/eelp_form_builder;
+            index index.html;
+            server_name eelp_form_builder.eelp.com;
+            location / {
+              try_files $uri $uri/ /index.html;
+            }
+    }
+
 Testing
 
 https://tighten.co/blog/its-time-to-start-testing-your-vue-components-getting-started-with-jest
@@ -105,4 +119,11 @@ https://babeljs.io/docs/en/babel-polyfill/
 CORS enabling
 
 If connected to a Backend Rails server, CORS must be enabled. See http://hugo.67webs.com/posts/wide-open-cors-config-for-nginx/
+
+How to view app variables in the browser
+
+in main.js
+
+    window['appMode'] = process.env.NODE_ENV
+
 
