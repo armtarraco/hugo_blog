@@ -67,3 +67,17 @@ Parse server response
 
 Continue in Udemy course Secure Your VueJs Applications With Auth0
 
+
+NGINX New server block
+
+    server {
+            listen 80;
+            listen [::]:80;
+
+            root /var/www/eelp_form_builder;
+            index index.html;
+            server_name eelp_form_builder.eelp.com;
+            location / {
+              try_files $uri $uri/ /index.html;
+            }
+    }
