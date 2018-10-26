@@ -9,7 +9,7 @@ categories = ['vue']
 
 <!-- more -->
 
-Install node and npm
+# Install node and npm
 
     sudo curl -sL https://rpm.nodesource.com/setup_8.x | sudo bash -
     sudo yum install -y nodejs
@@ -18,7 +18,7 @@ Install node and npm
     npm -v
     => 5.6.0
 
-Install version 3 of vue-cli
+# Install version 3 of vue-cli
 
     sudo npm install -g @vue/cli
 
@@ -33,12 +33,12 @@ Note: upgrading vue-cli requires upgrading the app as well manually
   npm uninstall -g vue-cli
   npm install -g @vue/cli
 
-Bootstrap the application with vue-cli
+# Bootstrap the application with vue-cli
 
     vue create app-name
     cd app-name
     npm run serve
 
-Add the router
+# Add the router
 
     vue add router

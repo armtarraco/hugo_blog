@@ -25,4 +25,3 @@ Example:
     +  json.image      message.user.image
     +  json.image_url  message.user.get_image
      end
-    
