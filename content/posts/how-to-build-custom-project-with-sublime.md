@@ -12,7 +12,7 @@ categories = ['hugo', 'devops']
 Create a new Build system for this particular project going to `Tools/Build system/New Build system` and edit like:
 
     {
-      "shell_cmd": "cd $folder && hugo && rsync -avz -e 'ssh -pPORT' --delete-after SOURCE_FOLDER/ SERVER:DESTINATION_FOLDER/"
+      "shell_cmd": "cd $folder && hugo && rsync -avz -e 'ssh -pPORT' --delete-after SOURCE_FOLDER/ USER@REMOTE_HOST:DESTINATION_FOLDER/"
     }
 
 Save it as `hugo-blog.sublime-build`.
@@ -26,3 +26,10 @@ De-select `Automatic` and select `hugo-blog`
 `$folder`: The full path to the first folder open in the side bar.
 
 More options in http://www.sublimetext.com/docs/3/build_systems.html#variables
+
+
+# Restart service on remote host after transfer files
+
+    {
+      "shell_cmd": "... && ssh -pPORT USER@REMOTE_HOST 'sudo service SERVICE restart"
+    }

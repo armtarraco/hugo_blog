@@ -24,8 +24,8 @@ or
 
 # Rails load schema for new developers instead of execute all migrations
 
-RAILS_ENV=development bundle exec rake db:drop
-RAILS_ENV=development bundle exec rake db:create
-RAILS_ENV=development bundle exec rake db:schema:load
+    RAILS_ENV=development bundle exec rake db:drop
+    RAILS_ENV=development bundle exec rake db:create
+    RAILS_ENV=development bundle exec rake db:schema:load
 
 And restore database
