@@ -7,4 +7,6 @@ tags = ['rvm']
 categories = ['devops']
 +++
 
-    rvm implode --force
+```
+rvm implode --force
+```
