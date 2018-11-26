@@ -31,5 +31,5 @@ More options in http://www.sublimetext.com/docs/3/build_systems.html#variables
 # Restart service on remote host after transfer files
 
     {
-      "shell_cmd": "... && ssh -pPORT USER@REMOTE_HOST 'sudo service SERVICE restart"
+      "shell_cmd": "... && ssh -pPORT USER@REMOTE_HOST 'sudo service SERVICE restart'"
     }
